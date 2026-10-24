@@ -1,0 +1,15 @@
+﻿# Local SQLite database
+data/safarilink.db
+data/safarilink.db-journal
+data/safarilink.db-wal
+data/safarilink.db-shm
+
+# Keep data files local
+data/raw/
+data/processed/
+data/external/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
