@@ -1,14 +1,19 @@
+
 name: safarilink
+
 channels:
   - conda-forge
+  - defaults
+
 dependencies:
   - python=3.11
   - pandas
   - numpy
   - matplotlib
   - seaborn
-  - scikit-learn
   - jupyter
+  - ipykernel
+  - scikit-learn
+  - scipy
+  - statsmodels
   - sqlalchemy
-  - psycopg2
-  - pyyaml
